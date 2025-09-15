@@ -1,0 +1,43 @@
+@font-face {
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: Roboto;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    margin: 0;
+    align-items: center;
+    gap: 24px;
+    color: darkgray;
+    text-decoration: none;
+}
+.header-title {
+    padding: 5px 15px;
+}
+.main-page {
+    padding: 10px 5px;
+    font-weight: normal;
+}
+.page-section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #1f2937;
+    color: darkgray;
+}
+.text-link {
+    color: cornflowerblue;
+}
